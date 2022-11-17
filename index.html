@@ -47,12 +47,16 @@
   <h2 id="titulo">Coderhouse</h2>
   <h3 id="subtitulo">Tema de hoy: <span id="temaDeLaClase">Storage</span></h3>
 
-  <form id="inicioDeSesion">
-    <input type="text">
-    <input type="password">
-    <button type="submit">Iniciar sesion</button>
+  <p id="error"></p>
+  <form id="formularioDisfraz">
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="number" id="precio" placeholder="Precio">
+    <input type="number" id="stock" placeholder="Stock">
+    <input type="submit" value="Agregar disfraz">
   </form>
-  <p id="bienvenida"></p>
+
+  <ul id="disfracezDisponibles" style="color: white">
+  </ul>
   <script src="app.js"></script>
 </body>
 
