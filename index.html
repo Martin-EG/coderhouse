@@ -41,10 +41,15 @@
 
       .colorRojo {
         color: red;
+        text-align: center;
       }
 
       .colorVerde {
         color: green;
+      }
+
+      .hidden {
+        display: none;
       }
     </style>
     <h2 id="titulo">Coderhouse</h2>
@@ -52,9 +57,13 @@
       Tema de hoy: <span id="temaDeLaClase">Operadores Avanzados</span>
     </h3>
 
+    <p class="colorVerde">Contador: <span id="contador">0</span></p>
+    <p id="error" class="colorRojo hidden">Error de inactividad</p>
     <form id="iniciarSesion">
       <input type="text" id="usuario" />
       <input type="password" id="password" />
+      <input type="text" id="telefono" />
+      <input type="number" id="dinero" />
       <input type="submit" value="Iniciar sesion" />
     </form>
 
